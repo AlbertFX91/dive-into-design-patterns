@@ -13,4 +13,5 @@ Factory Method is a creational design pattern that provides an interface for cre
 - Use the Factory Method when you don’t know beforehand the exact types and dependencies of the objects your code should work with.
 - Use the Factory Method when you want to provide users of your library or framework with a way to extend its internal components (extend a UI element and override the createUI method)
 - Use the Factory Method when you want to provide users of your library or framework with a way to extend its internal components. (on createConnection, check if a connection is not being used and provide it as a pool)
-
+### Abstract Factory
+is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
